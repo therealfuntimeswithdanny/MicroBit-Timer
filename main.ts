@@ -7,5 +7,5 @@ input.onButtonPressed(Button.AB, function () {
     music.play(music.stringPlayable("C C5 C C5 C C5 C C5 ", 120), music.PlaybackMode.UntilDone)
 })
 let time = 0
-time = 5
+time = 12
 basic.showNumber(time)
