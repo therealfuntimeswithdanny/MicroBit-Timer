@@ -4,8 +4,8 @@ input.onButtonPressed(Button.AB, function () {
         time += -1
         basic.showNumber(time)
     }
-    music.play(music.stringPlayable("C C5 C C5 C C5 C C5 ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C C5 C C5 C C5 C C5 ", 120), music.PlaybackMode.LoopingInBackground)
 })
 let time = 0
-time = 12
+time = 10
 basic.showNumber(time)
